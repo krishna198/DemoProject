@@ -15,7 +15,6 @@ namespace TechGigQuestions
             //var arr = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             int nodeToDelete = 4;
             CountingOfLeaves countingLeaves = new CountingOfLeaves();
-            //int numberOfLevels = countingLeaves.GetTheNodeLevel(10);
             int remainingNodes = countingLeaves.NumberOfLeafNodesAfterDeleting(arr.Length,nodeToDelete);
             Console.WriteLine("The remaining number of nodes are : "+remainingNodes);
 
